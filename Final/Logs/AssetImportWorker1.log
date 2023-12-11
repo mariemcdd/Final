@@ -1,0 +1,562 @@
+Unity Editor version:    2022.3.12f1 (4fe6e059c7ef)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.5 (Build 22G74)
+Darwin version:          22.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/mariemcdermott221/Documents/GitHub/Final/Final
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49659
+Successfully changed project path to: /Users/mariemcdermott221/Documents/GitHub/Final/Final
+/Users/mariemcdermott221/Documents/GitHub/Final/Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8194007168] Host "[IP] 10.94.19.167 [Port] 0 [Flags] 2 [Guid] 790342001 [EditorId] 790342001 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8194007168] Host "[IP] 10.94.19.167 [Port] 0 [Flags] 2 [Guid] 790342001 [EditorId] 790342001 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 2.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mariemcdermott221/Documents/GitHub/Final/Final/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 Max (high power)
+Metal devices available: 1
+0: Apple M2 Max (high power)
+Using device Apple M2 Max (high power)
+Initializing Metal device caps: Apple M2 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56207
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001248 seconds.
+- Loaded All Assemblies, in  0.180 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.135 seconds
+Domain Reload Profiling: 315ms
+	BeginReloadAssembly (40ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (84ms)
+		LoadAssemblies (39ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (84ms)
+			TypeCache.Refresh (83ms)
+				TypeCache.ScanAssembly (75ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (136ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (100ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.307 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.258 seconds
+Domain Reload Profiling: 565ms
+	BeginReloadAssembly (66ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (127ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (94ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (77ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (258ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (185ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (51.0 KB). Loaded Objects now: 3543.
+Memory consumption went from 125.8 MB to 125.8 MB.
+Total: 1.965458 ms (FindLiveObjects: 0.075958 ms CreateObjectMapping: 0.042958 ms MarkObjects: 1.787459 ms  DeleteObjects: 0.058542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 633.621384 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Preview.ogg
+  artifactKey: Guid(e25050453eb124aada21c5599810d040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Preview.ogg using Guid(e25050453eb124aada21c5599810d040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a4714b9d09718ddeca53bedc1094de') in 0.083091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.405933 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/beltHandle2.ogg
+  artifactKey: Guid(a202dfdbe965847739335a1eaad9cc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/beltHandle2.ogg using Guid(a202dfdbe965847739335a1eaad9cc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bc2b15e317cf87f9df4873b9f75601') in 0.006052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/bookClose.ogg
+  artifactKey: Guid(65090ba0f3034401b82205473d45efc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/bookClose.ogg using Guid(65090ba0f3034401b82205473d45efc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bea971ec80d593e3c6a92a88d52153') in 0.003420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/handleCoins.ogg
+  artifactKey: Guid(54fae9a68461f4266b1592d19229d23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/handleCoins.ogg using Guid(54fae9a68461f4266b1592d19229d23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2edd9ae319f51fbc3e5581e9deb384') in 0.002652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/metalPot2.ogg
+  artifactKey: Guid(6a6aae4f765bd473fbec458227114ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/metalPot2.ogg using Guid(6a6aae4f765bd473fbec458227114ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e9e44cc46bc22777396d986ebdc758') in 0.002675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/handleSmallLeather2.ogg
+  artifactKey: Guid(12f0eed2be4aa4767a2fa8b6cd3234a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/handleSmallLeather2.ogg using Guid(12f0eed2be4aa4767a2fa8b6cd3234a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6785305f0f7685b21087e4d40b70f405') in 0.002245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/cloth3.ogg
+  artifactKey: Guid(89af77bbc134e44f29c3ff12ed951f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/cloth3.ogg using Guid(89af77bbc134e44f29c3ff12ed951f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c008cb4098e3492463455744cb4e80e8') in 0.002383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/creak2.ogg
+  artifactKey: Guid(670b93ff15c0b49c1a42b38401cfbc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/creak2.ogg using Guid(670b93ff15c0b49c1a42b38401cfbc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a639b67b276ea01e66d319f6bed9d3f') in 0.002247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/metalClick.ogg
+  artifactKey: Guid(bbe4a837e8fe6401fa3ff16b4ac0ca2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/metalClick.ogg using Guid(bbe4a837e8fe6401fa3ff16b4ac0ca2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6eba09e46575024f1b1ccbb69ceb44') in 0.002115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/bookPlace2.ogg
+  artifactKey: Guid(3960fdfa89975435a94704b37f526802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/bookPlace2.ogg using Guid(3960fdfa89975435a94704b37f526802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb2a0e5b73aabb749a7142fed2468eb') in 0.002166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/footstep07.ogg
+  artifactKey: Guid(a7e0cb35fd59e423ea8f9abf253af8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/footstep07.ogg using Guid(a7e0cb35fd59e423ea8f9abf253af8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1218e623106a12af00954e2ccc22d9ba') in 0.002107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/dropLeather.ogg
+  artifactKey: Guid(fc3e41acf2fe1489db5a6bcaed398e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/dropLeather.ogg using Guid(fc3e41acf2fe1489db5a6bcaed398e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d4bdc28d67bd0baa8a586c11a1205') in 0.002156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/knifeSlice2.ogg
+  artifactKey: Guid(2bdb3d2526f124e4db17ecfbfbb640e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/knifeSlice2.ogg using Guid(2bdb3d2526f124e4db17ecfbfbb640e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd339a52dedc3c9f2c1275f0db75ffc2') in 0.002028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/drawKnife3.ogg
+  artifactKey: Guid(2b1b71fa6d9ff49f698d3ada3c1cebc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/drawKnife3.ogg using Guid(2b1b71fa6d9ff49f698d3ada3c1cebc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e49ef11c49ab08ab7d763fecebbdb52') in 0.002049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/metalPot1.ogg
+  artifactKey: Guid(5bbb86869c16a4f8499fa6f987182667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/metalPot1.ogg using Guid(5bbb86869c16a4f8499fa6f987182667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c454942e67339820589ee97686101cf2') in 0.002059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/footstep01.ogg
+  artifactKey: Guid(a401f33b4152c43bb93ac45b5f04256d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/footstep01.ogg using Guid(a401f33b4152c43bb93ac45b5f04256d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780890dd6a28dcc7a68a7a3588400d03') in 0.002056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/bookPlace3.ogg
+  artifactKey: Guid(4f1b6e0dcd1e94db4a3c86ae29742e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/bookPlace3.ogg using Guid(4f1b6e0dcd1e94db4a3c86ae29742e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03000488a5e057ccd91387e8b44b0424') in 0.002066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/footstep08.ogg
+  artifactKey: Guid(25601b562ccec435c9321d299865fc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/footstep08.ogg using Guid(25601b562ccec435c9321d299865fc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd560f9e14cba4536f40fb3923c55f310') in 0.002150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/doorClose_1.ogg
+  artifactKey: Guid(e4ff8824c2b43449884d18876daed951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/doorClose_1.ogg using Guid(e4ff8824c2b43449884d18876daed951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62191418d4e6ff606802047ad96bb3c') in 0.002136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/doorClose_4.ogg
+  artifactKey: Guid(df887064eb7e64f868d7d04ddaca7ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/doorClose_4.ogg using Guid(df887064eb7e64f868d7d04ddaca7ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7322d5628ea7d98561bb37e905fa596') in 0.003683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/footstep00.ogg
+  artifactKey: Guid(9a4b1c7f612ef482cb3fc5f9674dde68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/footstep00.ogg using Guid(9a4b1c7f612ef482cb3fc5f9674dde68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626f0622c1eac032dc8d67ac4350f987') in 0.002365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/doorClose_2.ogg
+  artifactKey: Guid(31af97918159746b1b5c60977a6ac7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/doorClose_2.ogg using Guid(31af97918159746b1b5c60977a6ac7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a2c5667a3b85d010ee75a038e43ba9') in 0.002243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/bookFlip3.ogg
+  artifactKey: Guid(d69909f1bb67a4e9896da89fe4ece028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/bookFlip3.ogg using Guid(d69909f1bb67a4e9896da89fe4ece028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c959694cfa1f5c5cca41400921eaeb') in 0.001941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/cloth2.ogg
+  artifactKey: Guid(8151007532faf412cb6b3cf548825632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/cloth2.ogg using Guid(8151007532faf412cb6b3cf548825632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dd2a03e9262fd1cfc1bff9c42da056') in 0.002004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/handleCoins2.ogg
+  artifactKey: Guid(bd7a94760dea14a41b1d376947819e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/handleCoins2.ogg using Guid(bd7a94760dea14a41b1d376947819e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb33165882949074e81f0b671eb2c899') in 0.002047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/clothBelt2.ogg
+  artifactKey: Guid(b17344a9d86f04789894339c7fb2efdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/clothBelt2.ogg using Guid(b17344a9d86f04789894339c7fb2efdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38d7e766eec3d6a37f8dff637f958b9') in 0.001915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/doorOpen_1.ogg
+  artifactKey: Guid(bc538b08c900e493595774608d17b865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/doorOpen_1.ogg using Guid(bc538b08c900e493595774608d17b865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97be792ea0073f19b859a4a0ee9ce303') in 0.002027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/metalPot3.ogg
+  artifactKey: Guid(89aa74645df0c41c795ff1b8095eddbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/metalPot3.ogg using Guid(89aa74645df0c41c795ff1b8095eddbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd850bc6b8b07648898408facd7453efb') in 0.001984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/creak1.ogg
+  artifactKey: Guid(490404616ddf146c1a778a5d90829b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/creak1.ogg using Guid(490404616ddf146c1a778a5d90829b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd154b76c59dfedce4c4e2c3c5830abbd') in 0.001865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/bookOpen.ogg
+  artifactKey: Guid(80c1fb0a7a4f04daba69b7ee443417e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/bookOpen.ogg using Guid(80c1fb0a7a4f04daba69b7ee443417e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45e11638765356123fcb9977ff35788') in 0.001919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/footstep09.ogg
+  artifactKey: Guid(2e96e694b338b4944aa0899a748613f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/footstep09.ogg using Guid(2e96e694b338b4944aa0899a748613f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d67f655e33dfe850e9da62fd97dc7cc') in 0.002021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/footstep05.ogg
+  artifactKey: Guid(60129a4aeffdb4e638af49df87e156ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/footstep05.ogg using Guid(60129a4aeffdb4e638af49df87e156ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eab72f9e47e1a24fd96bd1d2a7ced69') in 0.001815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/clothBelt.ogg
+  artifactKey: Guid(41d4da8e9b2644c03b52892837eb5b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/clothBelt.ogg using Guid(41d4da8e9b2644c03b52892837eb5b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2538c9d7a73640626ae7bc0e933dc493') in 0.002028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/bookFlip1.ogg
+  artifactKey: Guid(97ad2e42ffcb54431a69752f2a957126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/bookFlip1.ogg using Guid(97ad2e42ffcb54431a69752f2a957126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60ef216a0180c74d87ed030620c9b6f') in 0.001704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/creak3.ogg
+  artifactKey: Guid(0d761e47b5c9942a09b79d65745e3eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/creak3.ogg using Guid(0d761e47b5c9942a09b79d65745e3eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc971b9eb658328fd5baaae954424fa') in 0.001806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/metalLatch.ogg
+  artifactKey: Guid(cba47130b8b204d7db424ece4c9fedaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/metalLatch.ogg using Guid(cba47130b8b204d7db424ece4c9fedaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c74eb384292abd250e05f26ade557f') in 0.001833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/handleSmallLeather.ogg
+  artifactKey: Guid(1fc6a5e9fd694468bb82b8a999c01812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/handleSmallLeather.ogg using Guid(1fc6a5e9fd694468bb82b8a999c01812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596104045e162cf5848bcf8111e91bbc') in 0.001936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/bookPlace1.ogg
+  artifactKey: Guid(7f360314b9f464dfd883eca1e35eecca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/bookPlace1.ogg using Guid(7f360314b9f464dfd883eca1e35eecca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e918ed31e2281e1391fcaa96d2894ae9') in 0.002095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/doorClose_3.ogg
+  artifactKey: Guid(44dd6f77cedac40bd99689a84eccdd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/doorClose_3.ogg using Guid(44dd6f77cedac40bd99689a84eccdd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66cfb8ae8d30f24b7eab603c05ec305') in 0.002071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/chop.ogg
+  artifactKey: Guid(67100769432fa4ac982b3659bda82be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/chop.ogg using Guid(67100769432fa4ac982b3659bda82be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748b3bd468a26d6c00e0564a41468931') in 0.002450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/doorOpen_2.ogg
+  artifactKey: Guid(3d79e69192a0e4515b72a98c259c69bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/doorOpen_2.ogg using Guid(3d79e69192a0e4515b72a98c259c69bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c069b74584954253137c343cc34998') in 0.001947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/cloth4.ogg
+  artifactKey: Guid(101142ab18d8a4738adf5bf430a6f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/cloth4.ogg using Guid(101142ab18d8a4738adf5bf430a6f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620533bd08ef81f618651c5bc6324321') in 0.001821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/drawKnife2.ogg
+  artifactKey: Guid(9677a0c885db342e9b20a889c6c1eea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/drawKnife2.ogg using Guid(9677a0c885db342e9b20a889c6c1eea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add32d14c815216c79d0ebc7ea0ec7af') in 0.001849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/footstep03.ogg
+  artifactKey: Guid(3d2a9f505c3ff49b29c7b01db5fdaa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/footstep03.ogg using Guid(3d2a9f505c3ff49b29c7b01db5fdaa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d46ea6f155f710649a1383fa88ff45d') in 0.001851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/footstep02.ogg
+  artifactKey: Guid(1eaa90d357559449d8a3d4fc7c36fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/footstep02.ogg using Guid(1eaa90d357559449d8a3d4fc7c36fa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26405f50a10c2aa02f103cb630760cb') in 0.001797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.097207 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Preview (Variation A).png
+  artifactKey: Guid(12284a57044644738b7b2d2faf5c2516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Preview (Variation A).png using Guid(12284a57044644738b7b2d2faf5c2516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cc08bd782b910fb4a9e66e2844d1cb') in 0.008741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

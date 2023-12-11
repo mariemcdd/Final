@@ -1,0 +1,526 @@
+Unity Editor version:    2022.3.12f1 (4fe6e059c7ef)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.5 (Build 22G74)
+Darwin version:          22.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mariemcdermott221/Documents/GitHub/Final/Final
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49659
+Successfully changed project path to: /Users/mariemcdermott221/Documents/GitHub/Final/Final
+/Users/mariemcdermott221/Documents/GitHub/Final/Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8194007168] Host "[IP] 10.94.19.167 [Port] 0 [Flags] 2 [Guid] 2284469536 [EditorId] 2284469536 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8194007168] Host "[IP] 10.94.19.167 [Port] 0 [Flags] 2 [Guid] 2284469536 [EditorId] 2284469536 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 2.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mariemcdermott221/Documents/GitHub/Final/Final/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 Max (high power)
+Metal devices available: 1
+0: Apple M2 Max (high power)
+Using device Apple M2 Max (high power)
+Initializing Metal device caps: Apple M2 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56205
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001212 seconds.
+- Loaded All Assemblies, in  0.181 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.134 seconds
+Domain Reload Profiling: 315ms
+	BeginReloadAssembly (41ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (85ms)
+		LoadAssemblies (41ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (84ms)
+			TypeCache.Refresh (83ms)
+				TypeCache.ScanAssembly (75ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (135ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (100ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (67ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.320 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.281 seconds
+Domain Reload Profiling: 601ms
+	BeginReloadAssembly (67ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (130ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (84ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (281ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (201ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (51.0 KB). Loaded Objects now: 3543.
+Memory consumption went from 125.9 MB to 125.8 MB.
+Total: 1.939708 ms (FindLiveObjects: 0.078458 ms CreateObjectMapping: 0.044709 ms MarkObjects: 1.760291 ms  DeleteObjects: 0.055917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 633.661246 seconds.
+  path: Assets/drive-download-20231211T194525Z-001
+  artifactKey: Guid(89fe781dbfd944046853a465f94832c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001 using Guid(89fe781dbfd944046853a465f94832c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd41058df994981c37d4aaa1d2ce5228') in 0.000835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.327823 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio
+  artifactKey: Guid(8a1fc30fd5bb14697bb3790a22a5e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio using Guid(8a1fc30fd5bb14697bb3790a22a5e1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7540a73eaedb5c176f6dc449e615b7fb') in 0.000476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.119552 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/beltHandle1.ogg
+  artifactKey: Guid(0699b4ba362df44399fe87ebc24ecad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/beltHandle1.ogg using Guid(0699b4ba362df44399fe87ebc24ecad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2b7f02ccaca21a3660d7c7f1caddaa') in 0.096653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/knifeSlice.ogg
+  artifactKey: Guid(351ce395062334d63923c9238954fdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/knifeSlice.ogg using Guid(351ce395062334d63923c9238954fdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a12a62bc961b297287430312e91156') in 0.002360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/bookFlip2.ogg
+  artifactKey: Guid(b58d6b0217c544eb89bdba37194f3f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/bookFlip2.ogg using Guid(b58d6b0217c544eb89bdba37194f3f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f506a23ea9c4101545de6ca1d858bf70') in 0.001995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/cloth1.ogg
+  artifactKey: Guid(abd8be47f93bd4b67bdaf36165368888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/cloth1.ogg using Guid(abd8be47f93bd4b67bdaf36165368888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5b426aa8ec7c3a7b87448494b6e031') in 0.001859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/footstep06.ogg
+  artifactKey: Guid(60de92261da5348858a13a83c9dd3053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/footstep06.ogg using Guid(60de92261da5348858a13a83c9dd3053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3047a5e74500d845613ec98a66d95376') in 0.001815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/footstep04.ogg
+  artifactKey: Guid(7e6127dd2fb9241629abd866d274d218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/footstep04.ogg using Guid(7e6127dd2fb9241629abd866d274d218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385c2100575c9b5e9f1874057ec699fb') in 0.001914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/drive-download-20231211T194525Z-001/Audio/drawKnife1.ogg
+  artifactKey: Guid(1cd1e83a53b87407691b19dff42f2f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194525Z-001/Audio/drawKnife1.ogg using Guid(1cd1e83a53b87407691b19dff42f2f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c0def2ec10c780380c6aaa795dc116') in 0.001649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.096603 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Preview.png
+  artifactKey: Guid(d22ab1d3953954296a094447640f922c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Preview.png using Guid(d22ab1d3953954296a094447640f922c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81dc9235174f28dc7d9f5d1692779c6') in 0.008185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Sample.png
+  artifactKey: Guid(e3361d400e304470ebacf9ab03557114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Sample.png using Guid(e3361d400e304470ebacf9ab03557114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90b26c155e5bcc5f1d8ce8c4b509368') in 0.002455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 72.188809 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/FBX format/barrel.fbx
+  artifactKey: Guid(14b42e9704a5b44d88fe3fb1908e0585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/FBX format/barrel.fbx using Guid(14b42e9704a5b44d88fe3fb1908e0585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007807df60aecc843fa755f29a9fc598') in 0.212758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/FBX format/wood-structure.fbx
+  artifactKey: Guid(97bd77f744fcb411a8f8c55bb9e2ffed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/FBX format/wood-structure.fbx using Guid(97bd77f744fcb411a8f8c55bb9e2ffed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0854d48e468b92fa661430c34541b8a3') in 0.006456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/FBX format/character-human.fbx
+  artifactKey: Guid(38d02e3b9a4994d6d86c8c43d923614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/FBX format/character-human.fbx using Guid(38d02e3b9a4994d6d86c8c43d923614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bddf8feda4d1350424a89701f76718b') in 0.016628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/FBX format/trap.fbx
+  artifactKey: Guid(cf032a9fcc12f475bbed118031ce705a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/FBX format/trap.fbx using Guid(cf032a9fcc12f475bbed118031ce705a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fadcb911ea5aa145ec6a868c877f7a') in 0.009457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/FBX format/floor-detail.fbx
+  artifactKey: Guid(a889dbd9b78a04770be4b7d8316172ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/FBX format/floor-detail.fbx using Guid(a889dbd9b78a04770be4b7d8316172ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b389a23882ddef2ab2b76f6f7e60482') in 0.005452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/FBX format/rocks.fbx
+  artifactKey: Guid(d38e4ac70c73b436193878bf346d7a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/FBX format/rocks.fbx using Guid(d38e4ac70c73b436193878bf346d7a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13e7de63638ebf86ab83fe29d979730') in 0.006878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/FBX format/character-orc.fbx
+  artifactKey: Guid(309b63986c728456c830f5a597443961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/FBX format/character-orc.fbx using Guid(309b63986c728456c830f5a597443961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c993bd87f5673799aea301609ff51e8') in 0.016235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/FBX format/stones.fbx
+  artifactKey: Guid(db407b17843cc4e7f93d98939d867e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/FBX format/stones.fbx using Guid(db407b17843cc4e7f93d98939d867e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f713abc158694e21d4d91deee7108c2') in 0.005550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/FBX format/wood-support.fbx
+  artifactKey: Guid(54270ee0c0fd04100996227a21a3a96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/FBX format/wood-support.fbx using Guid(54270ee0c0fd04100996227a21a3a96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5dba09561d5a256e1c9725e15cea18') in 0.005801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/FBX format/floor.fbx
+  artifactKey: Guid(8bcc0f8a8ed184eada055a603e098cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/FBX format/floor.fbx using Guid(8bcc0f8a8ed184eada055a603e098cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53a902e5a8b6cc6696744535acff50b') in 0.005543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/FBX format/wall.fbx
+  artifactKey: Guid(1e2a1f0f07bd147cfaab9e705bd7cbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/FBX format/wall.fbx using Guid(1e2a1f0f07bd147cfaab9e705bd7cbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de15afe74f5448ef7f99b1eedb957d9b') in 0.005533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/FBX format/coin.fbx
+  artifactKey: Guid(90f5081e791a2475d9ce61e86dc28aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/FBX format/coin.fbx using Guid(90f5081e791a2475d9ce61e86dc28aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f1bf6eb7c8a8f7f78fbf0060122da5') in 0.005485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.288816 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/OBJ format/barrel.obj
+  artifactKey: Guid(efc40e98ba50b4b7685076a9f805f1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/OBJ format/barrel.obj using Guid(efc40e98ba50b4b7685076a9f805f1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbfe79eef922dc3fc47756c10531a79') in 0.016713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/OBJ format/stones.obj
+  artifactKey: Guid(45166cc59ca994b0b884c8de569beb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/OBJ format/stones.obj using Guid(45166cc59ca994b0b884c8de569beb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1097e9dcdcd8657e682613fa171d7e57') in 0.010775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/OBJ format/floor.obj
+  artifactKey: Guid(6997736dd230c4a7881f60e8d9f71ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/OBJ format/floor.obj using Guid(6997736dd230c4a7881f60e8d9f71ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d09586cb640df8674739035e3bdbc3e') in 0.008445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/OBJ format/wall-opening.obj
+  artifactKey: Guid(1e39498164ecc4539bd556f48afddd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/OBJ format/wall-opening.obj using Guid(1e39498164ecc4539bd556f48afddd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85556b6b15858b360fbffda6aadede66') in 0.008744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/OBJ format/gate.obj
+  artifactKey: Guid(ef73472ef075945e79f7a0807cb05930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/OBJ format/gate.obj using Guid(ef73472ef075945e79f7a0807cb05930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698a1a371989f1f15c3451d9626b2620') in 0.008045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/OBJ format/wall-narrow.obj
+  artifactKey: Guid(cf8fd02126ab94da0be98897383353e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/OBJ format/wall-narrow.obj using Guid(cf8fd02126ab94da0be98897383353e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b3c34c99369471a5b64fd27c6366d7') in 0.007553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/OBJ format/column.obj
+  artifactKey: Guid(d8fe40b3df7224c9b80250dc210cbf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/OBJ format/column.obj using Guid(d8fe40b3df7224c9b80250dc210cbf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4113a09b005488a1e5e2b943715569b') in 0.007077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/OBJ format/rocks.obj
+  artifactKey: Guid(c0622bc25079a4e5a91384c2d72a622c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/OBJ format/rocks.obj using Guid(c0622bc25079a4e5a91384c2d72a622c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a4e767b6929f012f32c30bb68eea93') in 0.007629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/OBJ format/stairs.obj
+  artifactKey: Guid(14526dcf072cb453c8ef30418fa51830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/OBJ format/stairs.obj using Guid(14526dcf072cb453c8ef30418fa51830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655ebd5602301f0b749f6acd53218e87') in 0.008245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/OBJ format/chest.obj
+  artifactKey: Guid(9f5831ceeebf0483b87072be338c884c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/OBJ format/chest.obj using Guid(9f5831ceeebf0483b87072be338c884c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d04beba5dbd69ec6a194a8a3017de4') in 0.010080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Models/OBJ format/coin.obj
+  artifactKey: Guid(254da71df5f194e9d92071cd872cd3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Models/OBJ format/coin.obj using Guid(254da71df5f194e9d92071cd872cd3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63885e0d2c53ca20852ee442b3b7d8ba') in 0.006870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 21.936892 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Previews/barrel.png
+  artifactKey: Guid(86ee86a921d644f76abf32678d2d18df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Previews/barrel.png using Guid(86ee86a921d644f76abf32678d2d18df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f936ee8c9b1dcdebbace11e6e82fb5ca') in 0.006952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Previews/wood-support.png
+  artifactKey: Guid(4b395788353d243bca3dd732beeef67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Previews/wood-support.png using Guid(4b395788353d243bca3dd732beeef67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac6f39d35cd993cbbfeba752387d9dc') in 0.003699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Previews/chest.png
+  artifactKey: Guid(691e2c1440190466bbc8428c64168b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Previews/chest.png using Guid(691e2c1440190466bbc8428c64168b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10492bc44c5450814bfb028b8a230ae2') in 0.003329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Previews/character-orc.png
+  artifactKey: Guid(d7804fd02d0ab465a8b0984500521236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Previews/character-orc.png using Guid(d7804fd02d0ab465a8b0984500521236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fd1e2298b6e9d7a7e69b4b19f83896') in 0.002815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Previews/wall-opening.png
+  artifactKey: Guid(2adbd8856bc554a05af39c5faf662344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Previews/wall-opening.png using Guid(2adbd8856bc554a05af39c5faf662344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777c0ff64fbd2ce96959e1dc4a40f530') in 0.003002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Previews/stones.png
+  artifactKey: Guid(1b71098f5b7714109a4f9e490040f8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Previews/stones.png using Guid(1b71098f5b7714109a4f9e490040f8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0790bb7230b3fdc5f052fd0af7a56635') in 0.002756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Previews/coin.png
+  artifactKey: Guid(920faaca0d7f749deac9ec71f3d5831e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Previews/coin.png using Guid(920faaca0d7f749deac9ec71f3d5831e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d67e316662f9734386a0a55207c103f') in 0.002601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/drive-download-20231211T194408Z-001/Previews/column.png
+  artifactKey: Guid(1ad0f8735bfdb4e1bbe9f443e56abc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drive-download-20231211T194408Z-001/Previews/column.png using Guid(1ad0f8735bfdb4e1bbe9f443e56abc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b12f7d01d3c94891deb92a9e781155') in 0.002447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
