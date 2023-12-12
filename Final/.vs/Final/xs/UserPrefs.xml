@@ -1,7 +1,9 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/drive-download-20231211T194408Z-001/License.txt">
+﻿<Properties StartupConfiguration="{18A227F1-5C0F-ACA8-E1B1-82377BC58276}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Coin.cs">
     <Files>
-      <File FileName="Assets/drive-download-20231211T194408Z-001/License.txt" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="7" Column="28" />
+      <File FileName="Assets/Scripts/CameraController.cs" Line="20" Column="63" />
+      <File FileName="Assets/Scripts/Coin.cs" Line="6" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,6 +15,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="62ef5b60-1a8e-4fa3-a3df-2be0ee1eb787" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
