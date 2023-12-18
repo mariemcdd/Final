@@ -19,5 +19,4 @@ public class CameraController : MonoBehaviour
     {
         transform.position = targetToFollow.transform.position + _offset;
     }
-
 }
