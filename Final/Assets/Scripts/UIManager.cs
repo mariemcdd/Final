@@ -18,6 +18,6 @@ public class UIManager : MonoBehaviour
     public void UpdateCoinCount()
     {
         coins++;
-        coinCountText.text = "coins: " + coins.ToString();
+        coinCountText.text = "Coins: " + coins.ToString();
     }
 }
